@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#banner {
+  height: 300PX;
+  background-image: url(../images/centre-formation-accueil.jpg);
+  font-size: 50PX;
+  font-weight: 900;
+  font-family: OPEN SANS;
+  color: #f47452;
+  align-content: center;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.bgc{
+  width: 900PX;
+  height: 120PX;
+  background-color: rgba(128, 128, 128, 0.25);
+  text-align: center;
+  align-content: center;
+}
+#cpt{
+  width: 95%;
+  height: auto;
+  padding: 30PX;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: var(--orange);
+}
+.cpt_titre{
+  font-size: 30PX;
+  font-weight: 600;
+  color:white;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.cpt_txt{
+  font-size: 16PX;
+  color:white;
+}
+
+#introduction {
+  width: 100%;
+  height: 400PX;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.imglogo {
+  width: 500px;
+  height: auto;
+  margin-top: 30PX;
+  margin-left: 30PX;
+}
+#intro{
+  width: 500PX;
+  height: auto;
+  margin: 20PX 30PX;
+}
+#intro_titre{
+  font-size: 30PX;
+  font-weight: 600;
+  margin: 30PX;
+  font-family: OPEN SANS;
+  color:#f47452;
+}
+#intro_text {
+  width: 400PX;
+  font-size: 20PX;
+  margin-left: 30PX;
+  font-family: OPEN SANS;
+  color: #333333;
+}
+.decouv{
+  width: 200PX;
+  margin: 30PX;
+  font-size: 20PX;
+  font-weight: 900;
+  border: 1px solid #f47452;
+  align-content: center;
+  padding: 20PX;
+  background-color: #f47452;
+  color: white;
+  transform: scale(1);
+}
+
+.decouv:hover{
+  color: #f47452;
+  background-color: white;
+  border: 2px solid #f47452;
+  transform: scale(0.9);
+}
+
+#info {
+  width: 100%;
+  height: auto;
+  align-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.inf_img {
+  width: 300PX;
+  height: auto;
+  transform: scale(1);
+}
+.inf_img :hover{
+  transform: scale(1.1);
+}
+.inf_titre {
+  width: 300PX;
+  margin: 20PX;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.inf_text {
+  width: 300PX;
+  margin: 20PX;
+  font-size: 16px;
+  color: #666666;
+}
+
+#cpd{
+  width: 95%;
+  height: auto;
+  padding: 30PX;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.cpd_titre{
+  font-size: 20PX;
+  font-weight: 600;
+  color:var(--orange);
+margin: 10PX auto;
+}
+.cpd_txt{
+  font-size: 16PX;
+  color:var(--orange);
+}
+.cpd_img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80PX;
+  height: 80PX;
+  border: 1PX solid white;
+  background-color: #cecdcd37;
+  border-radius:50%;
+  text-align: center;
+  color: var(--orange);
+  font-size: 40px;
+}
+
+.cpd_img:hover{
+  background-color: #f47452;
+  border: 1px solid #f47452;
+  color: var(--blanc);
+}
+
+.inf_center{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
